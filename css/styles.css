@@ -1,8 +1,9 @@
 body{
+    color: #40514E;
     margin: 0;
     text-align: center;
     font-family:'Pacifico',sans-serif;
-    color: #40514E;
+   
 }
 h1{
     width: 50%;
@@ -16,12 +17,33 @@ h1{
 h2{
     font-family: 'Roboto', sans-serif;
     color:  #66BFBF;
-    font-weight: normal;
+    font-weight: bold;
     line-height: 2;
 }
 h3{
     font-family: 'Roboto', sans-serif;
     color: #11999E;
+}
+p{
+    line-height: 2;
+}
+a{
+    color:#11999E;
+    margin-right: 15px;
+    text-decoration: none;
+
+}
+a:hover{
+    color: #EAF6F6;
+}
+.copy-right{
+    color: #EAF6F6;
+    font-size: 0.75rem;
+    margin: 20px auto 0;
+}
+.contact-message{
+    width: 30%;
+    margin: 40px auto 60px;
 }
 .pro{
     text-decoration: underline;
@@ -40,7 +62,8 @@ h3{
     padding-top: 100px;
 }
 .middle-container{
-    
+    margin: 100px 0;
+
 
  
 }
@@ -56,7 +79,7 @@ h3{
     width: 50%;
     margin: 100px auto 150px auto;
     text-align: left;
-    line-height: 2;
+    
 }
 .run-image{
     width: 25%;
@@ -72,13 +95,10 @@ h3{
 }
 
 .bottom-container{
-    margin-top: 100px;
+    padding: 20px 0 20px;
     background-color: #66BFBF;
  
 
-}
-.footer-link{
-    color:#11999E;
 }
 .top-cloud{
     
